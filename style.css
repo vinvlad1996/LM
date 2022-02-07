@@ -1,0 +1,257 @@
+.container {
+    margin-top: 150px;
+    margin-left: 100px;
+    min-width: 423px;
+    max-height: 621px;
+    position: relative;
+}
+
+.one {
+    position: absolute;
+    left: 114px;
+    top: -17px;
+    z-index: 3;
+}
+
+.three {
+    position: absolute;
+    left: 197px;
+    z-index: 2;
+}
+
+.four {
+    position: absolute;
+    left: -1px;
+    z-index: 1;
+}
+
+.five {
+    position: absolute;
+    left: 133px;
+    z-index: 1;
+}
+
+.six {
+    position: absolute;
+    left: 177px;
+    top: -14px;
+    z-index: 4;
+}
+
+.flag {
+    position: absolute;
+    left: 177px;
+    top:-108px;
+}
+
+.gorizontal {
+    position: absolute;
+    left: 152px;
+    top: 448px;
+    z-index: 6;
+}
+
+.vertical {
+    position: absolute;
+    top: 453px;
+    left: 177px;
+    z-index: 6;
+}
+
+.line {
+    position: absolute;
+    top: -1px;
+    left: 148px;
+    z-index: 6;
+}
+
+.line2 {
+    position: absolute;
+    top: 106px;
+    left: 182px;
+    z-index: 6;
+}
+
+.line3 {
+    position: absolute;
+    top: 225px;
+    left: 148px;
+    z-index: 6;
+}
+
+.line4 {
+    position: absolute;
+    top: 334px;
+    left: 182px;
+    z-index: 6;
+}
+
+a {
+    text-decoration: none;
+    color: #6D7A8F;
+}
+
+.career {
+    position: absolute;
+    top: 135px;
+    left: 80px;
+    z-index: 5;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.rank-right::before {
+    background-image: url(IMG/arrowright.png);
+    background-repeat: no-repeat;
+    background-position: 190px 4px;
+    padding-right: 40px;
+    z-index: 7;
+}
+
+.rank-right:active {
+    background-image: url(IMG/arrowright.png);
+    background-repeat: no-repeat;
+    background-position: 190px 4px;
+    padding-right: 40px;
+    z-index: 7;
+}
+
+.rank-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 180px);
+    column-gap: 60px;
+  }
+
+.rank:not(:last-child) {
+    margin-bottom: 85px;
+}
+
+.rank:nth-child(2n) {
+   margin-top: 110px;
+   margin-right: auto;
+}
+
+.rank:nth-child(2n+1) {
+    margin-left: auto;
+}
+
+.career-btn {
+    border:1px solid #FFFFFF;
+    background: #FFFFFF;
+    color: #6D7A8F;
+    padding: 7px 16px;
+    box-shadow: 0px 4px 20px rgba(55, 74, 119, 0.2);
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.career-btn:hover {
+    background-image: url(IMG/miniFlag.svg);
+    background-repeat: no-repeat;
+    background-position: 20px 8px;
+    padding-left: 50px;
+}
+
+.career-btn:focus {
+    background-image: url(IMG/miniFlag.svg);
+    background-repeat: no-repeat;
+    background-position: 20px 8px;
+    padding-left: 50px;
+}
+
+.career-btn-done {
+    background-image: url(IMG/done.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position: 14px 4px !important;
+    background: #47C293;
+    border: 1px solid #47C293;
+    color: #052A34;
+    border: none;
+    padding: 7px 16px;
+    border-radius: 100px;
+    cursor: pointer;
+    padding-left: 46px;
+}
+
+.hidden {
+    display: none
+}
+
+.target {
+    position: absolute;
+    right: 600px;
+    top: 250px;
+}
+
+.info {
+    text-transform: uppercase;
+    color: #6D7A8F;
+    font-size: 16px;
+    line-height: 130%;
+    margin-right: 14px;
+}
+
+.info-logo {
+    background-image: url(IMG/info.svg);
+    background-repeat: no-repeat;
+}
+
+.position {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    margin-right: 13px;
+}
+
+.position-flex {
+    display: flex;
+    align-items: center;
+}
+
+.information-flex {
+    display: flex;
+    align-items: center;
+}
+
+.new-info {
+    display: none;
+    position: fixed;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(55, 74, 119, 0.1);
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 16px;
+    line-height: 130%;   
+}
+
+a.info-logo:hover+div {
+    display: block;
+    margin-top: 60px;
+    margin-left: 240px;
+}
+
+.test {
+    font-size: 14px;
+    line-height: 130%;
+    color: #313A3E;
+}
+
+.test:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.test-one {
+    background-image: url(IMG/greeendone.svg);
+    background-repeat: no-repeat;
+    padding-left: 25px;
+}
+
+.test-two {
+    background-image: url(IMG/nodone.svg);
+    background-repeat: no-repeat;
+    padding-left: 25px;
+}
